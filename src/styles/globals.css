@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Inter, system-ui, sans-serif;
+  }
+  h1 {
+    font-family: Bogart Trial, system-ui, sans-serif;
+    font-size: 96px;
+  }
+  button {
+    font-family: Bogart Trial, system-ui, sans-serif;
+  }
+}
