@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-import GithubLogo from 'public/github.svg'
+import GithubLogo from 'public/assets/github.svg'
+import LinkedInLogo from 'public/assets/linkedin-icon.svg'
 
 const Navbar = () => {
   return (
@@ -17,6 +18,13 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="w-1/3 flex justify-end">
+        <Link
+          href="https://www.linkedin.com/in/samantharnunez/"
+          target="_blank"
+          style={{ marginRight: '16px' }}
+        >
+          <LinkedInLogo />
+        </Link>
         <Link href="https://github.com/girlpluscomputer" target="_blank">
           <GithubLogo />
         </Link>
