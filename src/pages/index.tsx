@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { Home } from '@/views'
+import { About, Home } from '@/views'
 
 const HomePage: NextPage = () => {
   return (
@@ -10,6 +10,7 @@ const HomePage: NextPage = () => {
         <title>Samantha Nuñez - Frontend Developer</title>
       </Head>
       <Home />
+      <About />
     </>
   )
 }
