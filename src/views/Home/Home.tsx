@@ -1,10 +1,17 @@
-import Image from 'next/image'
+import background from '../../../public/assets/background.png'
 
 import { Navbar } from './components'
 
 const Home = () => {
   return (
-    <div className="bg-black w-full h-screen">
+    <div
+      style={{
+        backgroundImage: `url('${background.src}')`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
+      }}
+      className="w-full h-screen"
+    >
       <Navbar />
       <div className="flex flex-col justify-center items-center">
         <div className="w-full flex flex-col justify-center items-center pt-40">
