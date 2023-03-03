@@ -6,10 +6,10 @@
   html {
     font-family: Inter, system-ui, sans-serif;
   }
-  h1 {
-    font-family: Bogart Trial, system-ui, sans-serif;
-    font-size: 96px;
-  }
+  h1,
+  h2,
+  h3,
+  h4,
   button {
     font-family: Bogart Trial, system-ui, sans-serif;
   }

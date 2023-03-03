@@ -6,7 +6,7 @@ import LinkedInLogo from 'public/assets/linkedin-icon.svg'
 
 const Navbar = () => {
   return (
-    <nav className="w-200 flex items-center px-20 py-10 border-red-600">
+    <nav className="w-200 flex items-center p-40 border-red-600">
       <ul className="flex w-1/3">
         {/* <li className="text-white text-lg pr-4 align-center">
           <Link href="">about</Link>
@@ -14,10 +14,10 @@ const Navbar = () => {
       </ul>
       <div className="w-1/3 flex justify-center">
         <Link href="/">
-          <Image src="/nun-logo.png" alt="logo" width={200} height={200} />
+          <Image src="/nun-logo.png" alt="logo" width={150} height={150} />
         </Link>
       </div>
-      <div className="w-1/3 flex justify-end">
+      <div className="w-1/3 hidden md:flex justify-end">
         <Link
           href="https://www.linkedin.com/in/samantharnunez/"
           target="_blank"
